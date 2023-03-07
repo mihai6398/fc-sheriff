@@ -1,0 +1,20 @@
+.homeIntro {
+    height: 1000px;
+    background: url('https://i.ibb.co/9nLNhb5/hero-img.png') no-repeat center;
+    background-size: cover;
+}
+.appIntro{
+    height: 600px;
+    background: url("https://i.ibb.co/Z23PZ9B/Rectangle-2.png") no-repeat center;
+    background-size: cover;
+}
+.rewardsIntro{
+    height: 600px;
+    background: url("https://i.ibb.co/yg57HPj/Rectangle-2-1.png") no-repeat center;
+    background-size: cover;
+}
+.aboutIntro{
+    height: 600px;
+    background: url("https://i.ibb.co/NWXTzJQ/Rectangle-2-2.png") no-repeat center;
+    background-size: cover;
+}

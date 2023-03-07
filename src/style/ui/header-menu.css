@@ -1,0 +1,52 @@
+.menu{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 100px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .2s;
+    z-index: 999999;
+}
+.menu.active{
+    transform: translateX(0);
+}
+.blur{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    position: absolute;
+
+}
+.menu-content{
+    width: 30%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-header{
+    font-size: 3rem;
+    color: #ffffff;
+}
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.burger-ul{
+    text-align: center;
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+.burger-link{
+    font-size: 1.50rem;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px){
+    .menu-content{
+        width: 100%;
+    }
+
+}

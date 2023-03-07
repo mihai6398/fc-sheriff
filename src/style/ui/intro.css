@@ -1,0 +1,24 @@
+.intro-button button {
+    width: 170px;
+    height: 50px;
+}
+.intro-button-custom{
+    border: 2px solid #FFE400;
+}
+
+.home-intro-content {
+    margin-top: 300px !important;
+}
+.home-intro-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+}
+.home-intro-custom-border{
+    border-bottom: 5px solid #FFE400;
+    margin-right: 100px;
+}
+.intro-description{
+    font-weight: 300;
+    font-size: 20px;
+}

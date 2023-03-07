@@ -1,0 +1,58 @@
+*,*:after,*:before{
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+ul,li,a{
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.bg-yellow{
+    background: #FFE400;
+}
+.text-yellow{
+    color: #ffe400;
+}
+.border-yellow{
+    border-color: #FFE400 !important;
+}
+.h-18{
+    height: 18px;
+}
+.bg-black{
+    background: #000000 !important;
+}
+.fs-1{
+    font-size: 2.5rem !important;
+}
+.fs-2{
+    font-size: 2rem !important;
+}
+.fs-3{
+    font-size: 1.75rem !important;
+}
+.fs-4{
+    font-size: 1.5rem;
+}
+.fs-5{
+    font-size: 1.25rem !important;
+}
+.fs-6{
+    font-size: 1rem !important;
+}
+.top-start{
+    top: 0 !important;
+    left: 0 !important;
+}
+.top-end{
+    top: 0 !important;
+    right: 0 !important;
+}
+.bg-white{
+    background: #fff;    
+}
+.list-style-active{
+    list-style: circle !important;
+}

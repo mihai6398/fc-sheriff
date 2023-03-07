@@ -1,0 +1,32 @@
+.home-intro-custom-border{
+    border-bottom: 5px solid #FFE400;
+    margin-right: 100px;
+}
+
+.about-text-content {
+    padding-top: 80px;
+    color: #3C3C3C !important;
+
+}
+.about-card-title{
+    font-size: 48px;
+}
+.about-card-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background: #000;
+    cursor: pointer;
+;
+}
+.about-card-item h4 {
+    position: relative;
+    z-index: 2;
+}

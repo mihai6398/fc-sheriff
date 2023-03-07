@@ -1,0 +1,7 @@
+.accordion-content{
+    display: none;
+    margin: 20px 0 0 0 ;
+}
+.accordion-content.active-accordion{
+    display: block !important;
+}

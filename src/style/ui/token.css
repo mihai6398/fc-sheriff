@@ -1,0 +1,14 @@
+.token{
+    background: url("https://i.ibb.co/w6tnYMr/token-img-1.png")
+    no-repeat center;
+    background-size: cover;
+}
+.vip-card-item{
+    height: 300px !important;
+}
+.vip-card{
+    height: 300px;
+}
+.vip-card-custom-height{
+    height: 640px;
+}

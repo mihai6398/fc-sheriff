@@ -1,0 +1,113 @@
+.ticket-item-card{
+    height: 300px;
+    cursor: pointer;
+}
+.ticket-text-content{
+    padding: 150px 0 0 0 !important;
+}
+.ticket{
+    height: 100vh;
+}
+@media only screen and (max-width: 1200px){
+    .ticket{
+        height: 100%;
+        padding: 50px 0;
+    }
+    .ticket-item-card{
+        margin-bottom: 20px;
+    }
+}
+/*
+
+*/
+.tribunal-btn{
+    width: 230px;
+    padding: 10px 5px;
+    border: solid #EAEAEA 1px;
+    background: transparent;
+}
+.tribunal-btn-active{
+    border: solid #ffe400 1px !important;
+}
+.match-place button{
+    font-size: 16px;
+    padding: 3px;
+    width: 1.5em;
+    margin-right: 5px;
+    background: #969696;
+    color: #ffffff;
+    border: 0;
+}
+.match-place-row{
+    color: #969696;
+}
+.text-football-field{
+    color: #4B7D2C;
+}
+.border-match-place{
+    background: #4B7D2C;
+    height: 20px;
+    width: 80%;
+}
+.match-place-busy{
+    background: #548DD4 !important;
+}
+.match-place-empty{
+    background: #969696 !important;
+}
+.match-place-user-select{
+    background: #FFE400 !important;
+}
+.match-place-user-select-active{
+    background: #FFE400 !important;
+
+}
+.match-place-empty-view{
+    background: #969696 !important;
+
+}
+.selected-place-card-item{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #548DD4;
+    padding: 15px 10px ;
+
+
+}
+.match-place-empty{
+    visibility: hidden;
+}
+.selected-place-card-item-under{
+    border: solid 1px #EAEAEA;
+    padding: 15px 10px;
+}
+.btn-match-place{
+}
+@media only screen and (max-width: 1400px){
+    .match-place button{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+    .tribunal-btn{
+        width: 100%;
+    }
+    .match-place button {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .match-place button {
+        font-size: 13px;
+    }
+    .text-match-details{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .text-match-details{
+        font-size: 12px;
+    }
+}

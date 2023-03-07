@@ -1,0 +1,27 @@
+.footer{
+    background: #EDF1F7;
+
+}
+.footer-form-custom-input{
+    height: 50px;
+    width: 50%;
+    border: 2px solid #ffffff;
+}
+.footer-form-custom-button{
+    height: 50px;
+    background: #FFE400;
+}
+@media only screen and (max-width: 990px){
+    .footer-text{
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .footer-form-custom-button{
+        width: 100% !important;
+    }
+    .footer-form-custom-input{
+        width: 100% !important;
+    }
+}
