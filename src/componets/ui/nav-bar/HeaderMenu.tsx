@@ -20,8 +20,8 @@ const HeaderMenu = ({header, HeaderMenuData,active ,setActive}: headerMenuProps)
                 <div className="menu-content">
                     <div className="menu-header">{header}</div>
                     <ul className={'burger-ul'}>
-                        {HeaderMenuData.map((data: MenuItem) =>
-                            <li className={'burger-link'}>
+                        {HeaderMenuData.map((data: MenuItem, index) =>
+                            <li key={index} className={'burger-link'}>
                                 <Link to={data.to}>{data.value}</Link>
                             </li>
                         )}

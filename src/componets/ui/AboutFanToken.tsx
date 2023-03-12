@@ -19,6 +19,7 @@ const AboutFanToken = () => {
                                 <br/> <br/>
                                 FC SHERIFF Fan Token holders can interact (chatting with like-minded users/connecting, voting on polls, etc.), competing in contests and quizzes and earn rewards, including:
                                 <br/> <br/>
+                            </p>
                                 <ul>
                                     <li className={'mb-4 list-style-active'}>Matchday tickets.</li>
                                     <li className={'mb-4 list-style-active'}>Cashback offers from official online shops.</li>
@@ -34,7 +35,6 @@ const AboutFanToken = () => {
                                     <li className={'mb-4 list-style-active'}>Staking Token for NFT rewards.</li>
                                     <li className={'mb-4 list-style-active'}>Real-world Utility (matchday tickets, NFTs whose ownership signifies real-world ownership of merchandise, VIP access to stadiums, etc.).</li>
                                 </ul>
-                            </p>
                         </div>
                     </Col>
                     <Col md={6}>
